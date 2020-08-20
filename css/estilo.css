@@ -118,6 +118,7 @@ body{
 
 .contact{
   display: block;
+width: 50px;
 }
 
 .contact .envelope {
