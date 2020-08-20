@@ -1,0 +1,418 @@
+@media  (max-width: 1968px ){
+*{
+  font-family: sans-serif;
+  box-sizing:border-box;
+  padding: 0;
+  margin:0;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+}
+
+.contenedor{
+  height: 1000px;
+  box-shadow: 0 0 10px 1px grey inset;
+  background: white;
+}
+
+.parrafo{
+  display: none;
+}
+
+.img{
+  display: none;
+}
+
+header {
+  display: none;
+  background: #000;
+  display: flex;
+  height: 64px;
+  color: #FFF;
+}
+
+#btn-menu {
+  display: none;
+}
+
+header label {
+  display: none;
+  cursor: pointer;
+}
+
+.menu{
+  display: none;
+  width: 100%;
+}
+
+.menu ul {
+  background: #000;
+  list-style:none;
+  display: flex;
+}
+
+.menu a {
+  display: none;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 20px;
+  line-height: 32px;
+  font-weight:700;
+  display:block;
+  color: #FFF;
+}
+
+.menu i {
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.menu a:hover {
+  background: #00aae7;
+}
+
+.contact{
+  display: none;
+}
+
+.Sociales{
+  display: none;
+}
+
+.marcas img{
+  display: none;
+  margin: auto;
+  width: 50%;
+}
+
+.finaltodo{
+  display: none;
+}
+
+#correo{
+  display: none;
+  }
+}
+@media  (max-width: 968px ){
+body{
+    box-shadow: 0 0 10px 1px white inset;
+    width: 100%;
+    background: none;
+}
+
+.contenedor{
+  width: 100%;
+  height: 50px;
+  background: white;
+}
+
+.logo{
+    width: 25%;
+    padding-bottom: 15px;
+    display: flex;
+    float: left;
+}
+
+.contact{
+  display: flex;
+}
+
+.contact .envelope {
+		position: absolute;
+		height: 63px;
+		width: 40%;
+		top: 50%;
+    margin-left: 160px;
+		margin-top: -26px;
+		background: #F9F9F9;
+
+		transition: margin-top 300ms;
+		-ms-transition: margin-top 300ms;
+		-moz-transition: margin-top 300ms;
+		-o-transition: margin-top 300ms;
+		-webkit-transition: margin-top 300ms;
+}
+
+.contact:hover .envelope {
+		transition-delay: 150ms;
+		-ms-transition-delay: 150ms;
+		-moz-transition-delay: 150ms;
+		-o-transition-delay: 150ms;
+		margin-top: -20px;
+}
+
+.contact .envelope .top {
+		position: absolute;
+		top: -3px;
+		left: 0px;
+		width: 100%;
+		height: 53px;
+		z-index: 30;
+		overflow: hidden;
+
+		transform-origin: top;
+		-ms-transform-origin: top;
+		-moz-transform-origin: top;
+		-o-transform-origin: top;
+		-webkit-transform-origin: top;
+
+		transition: transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+		-ms-transition: -ms-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+		-moz-transition: -moz-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+		-o-transition: -o-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+		-webkit-transition: -webkit-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+}
+
+.contact:hover .envelope .top {
+		transition: transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+		-ms-transition: -ms-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+		-moz-transition: -moz-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+		-o-transition: -o-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+		-webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+
+		height: 10px;
+		top: -38px;
+
+		transform: rotateX(180deg);
+		-ms-transform: rotateX(180deg);
+		-moz-transform: rotateX(180deg);
+		-o-transform: rotateX(180deg);
+		-webkit-transform: rotateX(180deg);
+}
+
+.contact .envelope .outer {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		border-left: 64px solid transparent;
+		border-right: 65px solid transparent;
+		border-top: 50px solid #EEE;
+}
+
+.contact .envelope .outer .inner {
+		position: absolute;
+		left: -60px;
+		top: -51px;
+		border-left: 61px solid transparent;
+		border-right: 60px solid transparent;
+		border-top: 47px solid #333;
+}
+
+.contact .envelope .bottom {
+		position: absolute;
+		z-index: 20;
+		bottom: 0px;
+		left: 2px;
+		border-left: 65px solid transparent;
+		border-right: 57px solid transparent;
+		border-bottom: 35px solid #333;
+}
+
+.contact .envelope .left {
+		position: absolute;
+		z-index: 20; top: 0px;
+		left: 0px;
+		border-left: 45px solid #333;
+		border-top: 35px solid transparent;
+		border-bottom: 25px solid transparent;
+}
+
+.contact .envelope .right {
+		position: absolute;
+		z-index: 20;
+		top: 0px;
+		right: 0px;
+		border-right: 45px solid #333;
+		border-top: 35px solid transparent;
+		border-bottom: 28px solid transparent;
+}
+
+.contact .envelope .cover {
+		position: absolute;
+		z-index: 15;
+		bottom: 0px;
+		left: 0px;
+		height: 75%;
+		width: 100%;
+		background: #EEE;
+}
+
+.contact .envelope .paper {
+    border-top:3px solid grey;
+    border-left:3px solid grey;
+    border-right:3px solid grey;
+    position: absolute;
+		height: 53px;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+		background: #F9F9F9;
+		z-index: 10;
+		transition: margin-top 300ms 0ms;
+		-ms-transition: margin-top 300ms 0ms;
+		-moz-transition: margin-top 300ms 0ms;
+		-o-transition: margin-top 300ms 0ms;
+		-webkit-transition: margin-top 300ms 0ms;
+}
+
+.contact:hover .envelope .paper {
+		margin-top: -30px;
+		transition: margin-top 300ms 150ms;
+		-ms-transition: margin-top 300ms 150ms;
+		-moz-transition: margin-top 300ms 150ms;
+		-o-transition: margin-top 300ms 150ms;
+		-webkit-transition: margin-top 300ms 150ms;
+}
+
+.contact .envelope .paper a {
+		position: relative;
+		display: block;
+		font-size: 10px;
+		margin: 5px;
+		margin-bottom: 0px;
+		text-align: center;
+		color: #333;
+		text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    header label {
+    box-shadow: 0 0 10px 1px grey inset;
+    background: #00aae7;
+    transition: all 0.4s ease;
+    padding-top: 16px;
+    display: flex;
+    padding-right: 10px;
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: none;
+    font-family: Uroob;
+    font-size: 20px;
+    margin-right: 15px;
+    display: block;
+    margin-top: 9px;
+    float: right;
+}
+
+.menu {
+    display: block;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+    position: absolute;
+    width: 47%;
+    top: 64px;
+    left: 0;
+}
+
+.menu ul {
+    box-shadow: 0 0 10px 1px grey inset;
+    background:#00aae7;
+    flex-direction: column;
+    display: block;
+}
+
+.menu ul li:hover ul {
+    position: static;
+    display: none;
+}
+
+.menu a i {
+    position: absolute;
+    line-height:32px;
+    font-size:22px;
+    right: 16px;
+}
+
+.menu a {
+    font-size:15px;
+}
+
+#btn-menu:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+.img{
+  display: flex;
+  width: 50%;
+}
+
+#correo{
+display: block;
+margin-left:53px;
+margin-right: 53px;
+border-bottom:3px solid green;
+}
+
+.Sociales{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 12.5px;
+}
+
+#facebook span{
+  background: #3b83bd;
+  border:3px solid #3b83bd;
+  border-radius: 3px;
+  color:white;
+}
+
+#instagram span{
+  border:3px solid #e66b00;
+  background: #e66b00;
+  border-radius: 3px;
+  color:white;
+}
+
+#whatsapp span{
+  border:3px solid green;
+  background: green;
+  border-radius: 3px;
+  color:white;
+}
+
+.parrafo{
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  margin: 40px;
+}
+
+.marcas img{
+    display: block;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.finaltodo{
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 5px 1px white inset;
+    background: #00aae7;
+    padding: 20px;
+}
+
+.finaltodo p {
+  display: block;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+}
