@@ -277,18 +277,6 @@ body{
 		text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
     header label {
     box-shadow: 0 0 10px 1px grey inset;
     background: #00aae7;
@@ -348,7 +336,7 @@ body{
 }
 
 .img{
-  display: flex;
+  display: block;
   width: 50%;
 }
 
