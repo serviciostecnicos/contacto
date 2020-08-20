@@ -19,6 +19,7 @@ body{
 
 .parrafo{
   display: none;
+
 }
 
 .img{
@@ -116,7 +117,7 @@ body{
 }
 
 .contact{
-  display: flex;
+  display: block;
 }
 
 .contact .envelope {
@@ -125,7 +126,7 @@ body{
 		width: 40%;
 		top: 50%;
     margin-left: 160px;
-		margin-top: -46px;
+		margin-top: -26px;
 		background: #F9F9F9;
 
 		transition: margin-top 300ms;
@@ -278,6 +279,7 @@ body{
 }
 
     header label {
+    display: block;
     box-shadow: 0 0 10px 1px grey inset;
     background: #00aae7;
     transition: all 0.4s ease;
@@ -309,6 +311,7 @@ body{
 }
 
 .menu ul {
+    display: block;
     box-shadow: 0 0 10px 1px grey inset;
     background:#00aae7;
     flex-direction: column;
@@ -316,11 +319,13 @@ body{
 }
 
 .menu ul li:hover ul {
+    display: block;
     position: static;
     display: none;
 }
 
 .menu a i {
+    display: block;
     position: absolute;
     line-height:32px;
     font-size:22px;
@@ -328,6 +333,7 @@ body{
 }
 
 .menu a {
+    display:flex;
     font-size:15px;
 }
 
@@ -376,6 +382,11 @@ border-bottom:3px solid green;
   color:white;
 }
 
+.logocontac{
+  display: block;
+  width: 100%;
+}
+
 .parrafo{
   display: block;
   text-align: center;
@@ -385,7 +396,7 @@ border-bottom:3px solid green;
 
 .marcas img{
     display: block;
-    padding-top: 30px;
+    padding-top: 80px;
     width: 50%;
 }
 
