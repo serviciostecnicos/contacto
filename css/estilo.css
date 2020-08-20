@@ -348,7 +348,8 @@ body{
 
 .img{
   display: flex;
-  width: 40%;
+  width: 35%;
+  height: 150px;
 }
 
 #correo{
