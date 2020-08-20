@@ -224,7 +224,7 @@ body{
 		position: absolute;
 		z-index: 20;
 		top: 0px;
-		right:20%;
+		right:40%;
 		border-right: 45px solid #333;
 		border-top: 35px solid transparent;
 		border-bottom: 28px solid transparent;
@@ -342,8 +342,9 @@ body{
 }
 
 .img{
+ margin: 20px;
   display: flex;
-  width: 30%;
+  width: 45%;
 }
 
 #correo{
