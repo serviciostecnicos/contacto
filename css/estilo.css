@@ -350,11 +350,12 @@ body{
     transform: translateX(0%);
 }
 
+
 .img{
-  position: absolute;
+  position: static;
   display: flex;
-  width: 35%;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 
 #correo{
