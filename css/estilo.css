@@ -347,9 +347,8 @@ body{
 }
 
 .img{
- margin: 20px;
   display: flex;
-  width: 45%;
+  width: 40%;
 }
 
 #correo{
