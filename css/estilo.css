@@ -116,16 +116,17 @@ body{
     float: left;
 }
 
-.contact{
-  display: block;
-width: 80%;
+	
+	.contact{
+  display: flex;
+  width: 100%;
 }
 
 .contact .envelope {
-		position: relative;
+		position: absolute;
 		height: 63px;
 		width: 40%;
-		bottom:65%;
+		top: 50%;
     margin-left: 160px;
 		margin-top: -26px;
 		background: #F9F9F9;
@@ -225,7 +226,7 @@ width: 80%;
 		position: absolute;
 		z-index: 20;
 		top: 0px;
-		right:40%;
+		right: 7%;
 		border-right: 45px solid #333;
 		border-top: 35px solid transparent;
 		border-bottom: 28px solid transparent;
@@ -236,9 +237,9 @@ width: 80%;
 		z-index: 15;
 		bottom: 0px;
 		left: 0px;
-		height: 75%;
-		width: 100%;
-		background: #EEE;
+		height: 70%;
+		width: 93%;
+		background: red;
 }
 
 .contact .envelope .paper {
@@ -247,7 +248,7 @@ width: 80%;
     border-right:3px solid grey;
     position: absolute;
 		height: 53px;
-		width: 80%;
+		width: 93%;
 		top: 0px;
 		left: 0px;
 		background: #F9F9F9;
@@ -271,13 +272,16 @@ width: 80%;
 .contact .envelope .paper a {
 		position: relative;
 		display: block;
-		font-size: 7px;
+		font-size: 10px;
 		margin: 5px;
 		margin-bottom: 0px;
 		text-align: center;
 		color: #333;
 		text-decoration: none;
 }
+	
+	
+	
 
     header label {
     display: block;
