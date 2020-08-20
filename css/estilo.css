@@ -342,7 +342,7 @@ body{
 }
 
 .img{
-  display: block;
+  display: flex;
   width: 50%;
 }
 
