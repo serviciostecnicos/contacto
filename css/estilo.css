@@ -383,7 +383,8 @@ border-bottom:3px solid green;
 }
 
 .logocontac{
-  display: block;
+  display: flex;
+	border:3px solid green;
   width: 100%;
 }
 
