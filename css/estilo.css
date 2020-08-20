@@ -121,7 +121,7 @@ body{
 }
 
 .contact .envelope {
-		position: absolute;
+		position: relative;
 		height: 63px;
 		width: 40%;
 		bottom:25%;
