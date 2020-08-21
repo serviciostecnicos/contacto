@@ -129,9 +129,9 @@ body{
 .contact .envelope {
 		position: fixed;
 		height: 63px;
-		right:50px;
+		right:45px;
 		width: 40%;
-		top: 25%;
+		top: 33%;
     margin-left: 140px;
 		margin-top: -26px;
 		background: #F9F9F9;
@@ -248,9 +248,6 @@ body{
 }
 
 .contact .envelope .paper {
-    border-top:3px solid grey;
-    border-left:3px solid grey;
-    border-right:3px solid grey;
     position: absolute;
 		height: 53px;
 		width: 93%;
