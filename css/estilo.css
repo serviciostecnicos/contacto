@@ -129,7 +129,7 @@ body{
 .contact .envelope {
 		position: fixed;
 		height: 63px;
-		right:30px;
+		right:50px;
 		width: 40%;
 		top: 25%;
     margin-left: 140px;
@@ -355,8 +355,8 @@ body{
 .img{
   position: static;
   display: flex;
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 170px;
 }
 
 #correo{
