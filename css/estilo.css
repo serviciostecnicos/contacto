@@ -118,6 +118,7 @@ body{
 
 
 .logocontac{
+  display: flex;
   width: 100%;
 }
 	
@@ -282,9 +283,6 @@ body{
 		text-decoration: none;
 }
 	
-	
-	
-
     header label {
     display: block;
     box-shadow: 0 0 10px 1px grey inset;
@@ -390,12 +388,6 @@ border-bottom:3px solid green;
   background: green;
   border-radius: 3px;
   color:white;
-}
-
-.logocontac{
-  display: flex;
-	border:3px solid green;
-  width: 100%;
 }
 
 .parrafo{
