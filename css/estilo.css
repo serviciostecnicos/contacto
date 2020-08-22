@@ -251,7 +251,7 @@ body{
 .contact .envelope .paper {
     position: absolute;
 		height: 53px;
-		width: 93%;
+		width: 100%;
 		top: 0px;
 		left: 0px;
 		background: #F9F9F9;
@@ -263,6 +263,31 @@ body{
 		-webkit-transition: margin-top 300ms 0ms;
 }
 
+.contact .envelope .pa{
+  color:white;
+  position: absolute;
+  z-index: 20;
+  bottom: 0px;
+  left: 2px;
+  font-size: 11px;
+  border-left: 39.5px solid transparent;
+  border-right: 57px solid transparent;
+  border-bottom: -105px solid #333;
+}
+
+
+.contact .envelope .pa2{
+  color:white;
+  position: absolute;
+  z-index: 20;
+  bottom: 0px;
+  left: 2px;
+  font-size: 11px;
+  border-left: 64.5px solid transparent;
+  border-right: 57px solid transparent;
+  border-bottom: -95px solid #333;
+}
+	
 .contact:hover .envelope .paper {
 		margin-top: -30px;
 		transition: margin-top 300ms 150ms;
