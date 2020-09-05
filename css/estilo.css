@@ -27,6 +27,7 @@ body{
 }
 
 header {
+  width: 100%;
   display: none;
   background: #000;
   display: flex;
@@ -309,6 +310,7 @@ body{
 }
 	
     header label {
+    width: 100%;
     display: block;
     box-shadow: 0 0 10px 1px grey inset;
     background: #00aae7;
@@ -321,13 +323,14 @@ body{
 }
 
 .titulo{
-    display: none;
-    font-family: Uroob;
-    font-size: 20px;
-    margin-right: 15px;
+    display:block;
+    text-align: center;
+    margin-left: 15%;
+    width: 100%;
+    font-family: Franklin Gothic;
+    font-weight: bold;
+    font-size: 50%;
     display: block;
-    margin-top: 9px;
-    float: right;
 }
 
 .menu {
@@ -416,6 +419,7 @@ border-bottom:3px solid green;
 }
 
 .parrafo{
+  font-family: Franklin Gothic;
   display: block;
   text-align: center;
   font-size: 10px;
